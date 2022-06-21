@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.star {
+  background-color: #262e38;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin: 32px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.star img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rating-component {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  width: 412px;
+  height: 416px;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
-.App-link {
-  color: #61dafb;
+.heading {
+  color: #ffffff;
+  margin: 32px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35.45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+  margin: 32px;
+}
+
+.page-p {
+  font-weight: 400;
+  color: #969fad;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.submit-btn {
+  position: absolute;
+  left: 7.77%;
+  right: 9.47%;
+  top: 81.49%;
+  bottom: 7.69%;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 22.5px;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 18.99px;
+  font-weight: 700;
 }
