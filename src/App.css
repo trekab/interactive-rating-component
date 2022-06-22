@@ -39,14 +39,14 @@ body {
 
 .heading {
   color: #ffffff;
-  margin: 32px;
+  margin: 0 32px;
   font-weight: 700;
   font-size: 28px;
   line-height: 35.45px;
 }
 
 form {
-  margin: 32px;
+  margin: 0 32px;
 }
 
 .page-p {
@@ -68,5 +68,48 @@ form {
   font-size: 15px;
   color: #ffffff;
   line-height: 18.99px;
+  letter-spacing: 2px;
   font-weight: 700;
 }
+
+.submit-btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.radio-btn {
+  background-color: #262e38;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  appearance: none;
+}
+
+label {
+  color: #7c8798;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  position: relative;
+  right: 47%;
+  top: -17px;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.radio-btn:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.radio-btn:hover + label,
+.radio-btn:checked + label {
+  color: hsl(0, 0%, 100%);
+}
+
+.radio-btn:checked {
+  background-color: #7c8798;
+}
+
