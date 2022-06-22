@@ -113,6 +113,36 @@ label {
   background-color: #7c8798;
 }
 
+.thank-you {
+  width: 162px;
+  margin: auto;
+  margin-top: 45px;
+}
+
+.rating-result {
+  color: hsl(25, 97%, 53%);
+  width: 193px;
+  height: 32px;
+  margin: 18px auto;
+  background-color: #262e38;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.grat-heading {
+  text-align: center;
+  margin: 22px 0;
+}
+
+.grat-p {
+  width: 340px;
+  margin: auto;
+  text-align: center;
+}
+
 @media (max-width: 375px) {
   .star {
     width: 40px;
@@ -160,5 +190,17 @@ label {
     font-size: 14px;
     line-height: 17.72px;
     letter-spacing: 1.87px;
+  }
+
+  .rating-result {
+    width: 168px;
+    line-height: 22px;
+    height: 22px;
+    font-size: 14px;
+  }
+
+  .grat-p {
+    width: 279px;
+    margin-top: 14px;
   }
 }
