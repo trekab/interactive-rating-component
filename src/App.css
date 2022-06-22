@@ -113,3 +113,52 @@ label {
   background-color: #7c8798;
 }
 
+@media (max-width: 375px) {
+  .star {
+    width: 40px;
+    height: 40px;
+    margin: 24px;
+  }
+
+  .star img {
+    width: 13.96px;
+    height: 13.33px;
+  }
+
+  .heading {
+    font-size: 24px;
+    line-height: 30.38px;
+    margin: 0 24px;
+  }
+
+  .rating-component {
+    width: 327px;
+    height: 360px;
+    border-radius: 15px;
+  }
+
+  form {
+    margin: 0 24px;
+  }
+
+  .page-p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .radio-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  label {
+    right: -37%;
+    top: -35px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+    line-height: 17.72px;
+    letter-spacing: 1.87px;
+  }
+}
