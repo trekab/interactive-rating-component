@@ -76,6 +76,7 @@ form {
 .submit-btn:hover {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
 
 .radio-btn {
@@ -103,11 +104,13 @@ label {
 }
 .radio-btn:hover {
   background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
 
 .radio-btn:hover + label,
 .radio-btn:checked + label {
   color: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
 
 .radio-btn:checked {
